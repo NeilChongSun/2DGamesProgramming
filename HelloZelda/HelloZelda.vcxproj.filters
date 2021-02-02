@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="TileMap.cpp" />
+    <ClCompile Include="Link.cpp" />
+    <ClCompile Include="Camera.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TileMap.h" />
+    <ClInclude Include="Link.h" />
+    <ClInclude Include="Camera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tile.txt" />
+    <Text Include="level.txt" />
+    <Text Include="test1.txt" />
+  </ItemGroup>
+</Project>
