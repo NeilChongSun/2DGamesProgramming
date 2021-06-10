@@ -36,7 +36,7 @@ private:
 	X::TextureId mPlayerId;
 
 	int mCurrentTile;
-	bool mIsShowGrid = true;
+	bool mIsShowGrid = false;
 	
 	bool mIsDrawTexture = false;
 	X::Math::Vector2 mClickPos;

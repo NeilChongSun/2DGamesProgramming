@@ -35,7 +35,7 @@ protected:
 	double mAnimTime = 0.0f;
 	int mTileSheetIndex = 0;
 	//Player in this area will be found by enemy
-	X::Math::Vector2 mAlertRange = { 250.0f,100.0f };
+	X::Math::Vector2 mAlertRange = { 180.0f,100.0f };
 	std::vector<Bullet*> mBullet;
 	float mNextAttackTime = 0.5f;
 };

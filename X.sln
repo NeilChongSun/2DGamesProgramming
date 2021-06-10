@@ -23,7 +23,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloX", "HelloX\HelloX.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloZombie", "HelloZombie\HelloZombie.vcxproj", "{E4B25993-AFB6-44FE-AB5A-2C13049BCD2F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloZelda", "HelloZelda\HelloZelda.vcxproj", "{16ED7FF0-4EB6-4308-9EB7-28E14865D9C2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TileMapEditor", "HelloZelda\HelloZelda.vcxproj", "{16ED7FF0-4EB6-4308-9EB7-28E14865D9C2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloTileMap", "HelloTileMap\HelloTileMap.vcxproj", "{2F2EA27E-05B8-4CB7-AA2A-81CE0919CA11}"
 EndProject

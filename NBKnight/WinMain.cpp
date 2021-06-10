@@ -35,9 +35,9 @@ void GameCleanUp()
 
 bool MainScene(float deltaTime)
 {
-	X::DrawScreenText("NB Knight", X::GetScreenWidth() / 2-80,X::GetScreenHeight()/2-100, 36, X::Colors::Blue);
-	X::DrawScreenText("Press S to Start", X::GetScreenWidth() / 2-150, X::GetScreenHeight() / 2+72-100, 36, X::Colors::Blue);
-	X::DrawScreenText("Press ESC to Quit", X::GetScreenWidth() / 2-150, X::GetScreenHeight() / 2+108-100, 36, X::Colors::Blue);
+	X::DrawScreenText("NB Knight", X::GetScreenWidth() / 2 - 80, X::GetScreenHeight() / 2 - 100, 36, X::Colors::Blue);
+	X::DrawScreenText("Press S to Start", X::GetScreenWidth() / 2 - 150, X::GetScreenHeight() / 2 + 72 - 100, 36, X::Colors::Blue);
+	X::DrawScreenText("Press ESC to Quit", X::GetScreenWidth() / 2 - 150, X::GetScreenHeight() / 2 + 108 - 100, 36, X::Colors::Blue);
 
 	if (X::IsKeyPressed(X::Keys::S))
 	{
@@ -96,16 +96,16 @@ bool GameLoop(float deltaTime)
 {
 	Level::Get().Update(deltaTime);
 	Level::Get().Render();
-	
+
 	Camera::Get().SetViewBound(Level::Get().GetBound());
 	Camera::Get().SetViewPosition(Player::Get().GetPosition());
-	
+
 	EnemyManager::Get().Update(deltaTime);
 	EnemyManager::Get().Render();
-	
+
 	Player::Get().Update(deltaTime);
 	Player::Get().Render();
-	
+
 	if (X::IsKeyPressed(X::Keys::ESCAPE))
 	{
 		state = mainScene;
